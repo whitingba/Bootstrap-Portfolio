@@ -16,16 +16,20 @@
 
 <body>
 
-    <!-- Nav bar goes first -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
-        <!-- come back an add an image logo instead -->
-        <a class="navbar-brand myName" href="index.html">Barbara Whiting</a>
+    <!-- Nav bar goes first -  removed navbar-expand-lg navbar-dark bg-light -->
+    <nav class="navbar navbar-expand-lg">
+        <!-- <div class="container"> -->
+        <!-- <div class="row"> -->
+        <!-- <div class="col-lg-11"> -->
+        <a class="navbar-brand bg-info" href="index.html">Barbara Whiting</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+        <!-- </div> -->
+        <!-- <div class="col-lg-1"> -->
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                 </li>
@@ -35,18 +39,20 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
-                </li>
             </ul>
         </div>
+        <!-- </div>
+            </div>
+        </div> -->
     </nav>
+
+
 
     <!-- About me box using grid -->
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2>About Me</h2>
+                <h2 class="text-info">About Me</h2>
             </div>
         </div>
 
@@ -83,10 +89,8 @@
         </div>
     </div>
 
-    <div id="footer">
-        <div class="footer-block">Copyright &#169;</p>
-        </div>
-    </div>
+    <div class="fixed-bottom bg-dark text-light border-top border-info text-center footer">Copyright &#169;</div>
+
 
 
 </body>

@@ -6,18 +6,29 @@
 }
 
 /* nav bar styling */
+.navbar {
+    background-color: white;
+ }
 
-.myName {
+.navbar-brand {
     font-size: 25px;
-    background-color: #4aaaa5;
+    /* background-color: #4aaaa5; */
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;  
+
     color: white;  
 }
-/* 
-.navbar-dark li a {
+
+
+li a {
     color: gray;
-} */
+    background: purple;
+
+}
+
+.active 
+{
+
+}
 
 
 /* Styling of body */
@@ -33,20 +44,19 @@ body {
 
 }
 
-.footer-block {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #666666;
-    text-align: center;
+.footer {
+    /* position: absolute;
+    bottom: 0; */
+    /* width: 100%; */
+    /* background-color: #666666; */
+    /* text-align: center; */
     padding-top: 20px;
-    border-top: 4px solid #4aaaa5;
+    /* border-top: 4px solid #4aaaa5; */
 }
 
 /* About Me row styling */
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
     border-bottom: 2px solid lightgray;
     padding: 20px 0px;
     margin-bottom: 20px;
